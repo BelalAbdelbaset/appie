@@ -1,0 +1,76 @@
+
+
+
+
+
+/* Start constants */
+.about-main-title{
+    background-color: var(--dark-color);
+    color: white;
+    width:fit-content;
+    border: 1px solid red;
+    margin-top:10px ;
+    padding: 2px 13px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+@media (max-width :678px) {
+    .about-main-title{
+        width:80%;
+        text-align: center;
+        margin:30px ;
+        padding: 10px;
+    }
+}
+.about-main svg{
+    font-size: 30px;
+    padding-right: 10px;
+    color:var(--dark-color);
+}
+.about-main a {
+   color: var(--dark-color);
+}
+.about-main ol{
+    list-style:disc;
+}
+.about-main .years-list{
+    list-style: none;
+}
+.about-main span{
+    border: 1px solid black;
+}
+/* End constants */
+
+
+/* Start Landing */
+.about-landing {
+    background-image: url(../Images/About-Page/about-landing-bg.jpg);
+    background-size: cover;
+  }
+  .about-landing .container .content .info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  @media (max-width :678px) {
+    .about-landing .container .content{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 25px;
+    }
+  }
+  .about-landing h1{
+      font-size: 60px;
+  }
+  @media (max-width :600px) {
+      .about-landing h1 {
+          padding: 30px 10px;
+          font-size: 30px;
+          font-weight: bold;
+      }
+  }
+  /* End landing */
