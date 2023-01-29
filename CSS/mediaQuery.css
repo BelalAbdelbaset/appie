@@ -1,0 +1,157 @@
+    /*Small Screen*/
+
+@media (max-width:600px) {
+
+
+    .main-title{
+        position: relative;
+        display: flex;
+        justify-content:center;
+        color:var(--dark-color);
+        font-family: 'Anton', sans-serif;
+        font-size: 40px;
+        font-weight: 900;
+      }
+    .nav-bar .get-started{
+        color:white;
+        background-color: var(--red-color);
+        padding: 15px 30px;
+        border-radius: 30px;
+      }
+    .landing .content h1{
+        font-size: 18px;
+        font-weight: 700
+    }
+    .landing .content h1 span{
+        font-size: 30px;
+    }
+    .landing .content p{
+        font-size: 15px;
+    }
+    .landing .landing-image img{
+        width: 170px;
+        float: right;
+        padding: 0;
+        margin: 0;    }
+    .landing .email-box{
+        position: relative;
+        background-color:white ;
+        border-radius: 30px;
+        width: 60%;
+        z-index: 1;
+        width: 100%;
+        padding:10px ;
+      }
+      .landing .email-box{
+        box-shadow: -4px 0px 0px -1px var(--red-color)
+      }
+    .landing .people-images img{
+      max-width: 50px;
+      border-radius: 50%;
+      border: 3px solid white;
+    }
+    .landing .people .people-images .image-1{
+        position:absolute;
+        z-index: 4;
+      }
+      .landing .people .people-images .image-2{
+        position:absolute;
+        z-index: 3;
+        margin-left: 30px;
+      }
+      .landing .people .people-images .image-3{
+        position:absolute;
+        z-index: 2;
+        margin-left: 60px;
+      }
+      .landing .people .people-images .image-4{
+        position:absolute;
+        z-index: 1;
+        margin-left: 90px;
+      }
+      .landing .people .people-text h1{
+        font-size: 20px;
+      }
+      .landing .people .people-text h5{
+        font-size: 15px;
+      }
+      .landing .people .people-text{
+        position: absolute;
+        left: 150px;
+      }
+  }
+
+
+
+
+    /*Large Screen*/
+    
+@media (min-width:600px) {
+    .main-title{
+        position: relative;
+        display: flex;
+        justify-content:start;
+        color:var(--dark-color);
+        font-family: 'Anton', sans-serif;
+        font-size: 40px;
+        font-weight: 900;
+        
+
+      }
+    .nav-bar .get-started{
+        color:white;
+        background-color: var(--red-color);
+        padding: 15px 30px;
+        border-radius: 30px;
+      }
+    .landing .content h1{
+        font-size: 60px;
+      }
+    .landing .content h1 span{
+        font-size: 80px;
+        font-weight: 900;
+      }
+    .landing .people-images img{
+        max-width: 50px;
+        border-radius: 50%;
+        border: 3px solid white;
+    }
+    .landing .email-box{
+        position: relative;
+        background-color:white ;
+        border-radius: 30px;
+        width: 60%;
+        z-index: 1;
+      }
+      
+    .landing .people .people-images .image-1{
+        position:absolute;
+        z-index: 4;
+      }
+      .landing .people .people-images .image-2{
+        position:absolute;
+        z-index: 3;
+        margin-left: 30px;
+      }
+      .landing .people .people-images .image-3{
+        position:absolute;
+        z-index: 2;
+        margin-left: 60px;
+      }
+      .landing .people .people-images .image-4{
+        position:absolute;
+        z-index: 1;
+        margin-left: 90px;
+      }
+      .landing .people .people-text{
+        position: absolute;
+        right: 290px;
+      }
+      .landing .people .people-text h1{
+        font-size: 35px;
+      }
+      .landing .people .people-text h5{
+        font-size: 18px;
+      }
+      
+  }

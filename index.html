@@ -4,46 +4,163 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google Fonts-->
+
+    <!--Boot Strap-->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
     <!--Font Awesome-->
     <link rel="stylesheet" href="CSS/all.min.css">
     <!--Main Stylesheet-->
     <link rel="stylesheet" href="CSS/main-stylesheet.css">
+    <!--mediaQuery-->
+    <link rel="stylesheet" href="CSS/mediaQuery.css">
     <title>Appie.</title>
   </head>
   <body>
     <a class="up" href="#"><i class="fa-solid fa-arrow-up"></i></a>
     <!--start navbar-->
-    <header class="nav-bar">
-        <div class="links">
-          <img class="logo"src="Images/logo.png" alt="">
-          <a href="#!">Home <i class="fa-solid fa-chevron-down"></i></a>
-          <a href="#!">Service</a>
-          <a href="#!">Pages <i class="fa-solid fa-chevron-down"></i></a>
-          <a href="#!">News <i class="fa-solid fa-chevron-down"></i></a>
-          <a href="#!">Contact</a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary nav-bar pt-4 pe-lg-5 ps-lg-5">
+      <div class="container-fluid">
+        <a class=" me-lg-5" href="#"><img class="logo img-fluid"src="Images/logo.png" alt=""></a>  
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle ms-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Home <i class="fa-solid fa-chevron-down"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#!">Link 1</a></li>
+                  <li><a class="dropdown-item" href="#!">Link 2</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#!">Link 3</a></li>
+                </ul>
+              </li>            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-4" href="#!">Service</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle  ms-4" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pages <i class="fa-solid fa-chevron-down"></i>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#!">Link 1</a></li>
+                <li><a class="dropdown-item" href="#!">Link 2</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#!">Link 3</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle  ms-4" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                News <i class="fa-solid fa-chevron-down"></i>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#!">Link 1</a></li>
+                <li><a class="dropdown-item" href="#!">Link 2</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#!">Link 3</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  ms-4" href="#!">Contact</a>
+            </li>
+          </ul>
+          <div>
+            <a class="get-started" href="#!">Get Started</a>
+          </div>
         </div>
-        <div>
-          <a class="get-srarted" href="#!">Get Started</a>
-        </div>
-    </header>
+
+      </div>
+    </nav>
     <!--End navbar-->
     <!--Start Landing-->
     <div class="landing">
-      <div class="content">
-        <h1>Ready to launch your app in one, <span>Application</span></h1>
-        <p>Find the bast application in the appie.</p>
-        <div class="email-box">
-          <i class="fa-regular fa-envelope"></i> info@Appie.com<i class="fa-solid fa-arrow-right arrow"></i>
-          
+      <div class="container-fluid ps-lg-5">
+        <div class="row ps-lg-5">
+          <div class="content col-lg-5 ">
+            <h1>Ready to launch your app in one, <span class="fw-bold">Application</span></h1>
+            <p>Find the bast application in the appie.</p>
+            <div class="email-box p-lg-3 mt-lg-5 text-black-50">
+              <i class="fa-regular fa-envelope"></i> info@Appie.com<i class="fa-solid fa-arrow-right arrow"></i>
+            </div>
+            <div class="people d-flex mt-5 position-relative">
+              <div class="people-images position-relative">
+                <img class="img-fluid image-1" src="Images/people/customer-1.jpg" alt="">
+                <img class="img-fluid image-2" src="Images/people/customer-2.jpg" alt="">
+                <img class="img-fluid image-3" src="Images/people/customer-4.jpg" alt="">
+                <img class="img-fluid image-4" src="Images/people/customer-5.jpg" alt="">
+              </div>
+              <div class="people-text">
+                <h1 class="fw-bold p-0 m-0">30K</h1>
+                <h5 class="p-0 m-0">Feedback</h5>
+              </div>
+            </div>
+          </div>
+          <div class="landing-image col-lg-7 p-0">
+            <img class="img-fluid" src="Images/hero.png" alt="">
+          </div>
         </div>
-        
-      </div>
-      <div class="landing-image">
-        <img src="Images/hero.png" alt="">
       </div>
     </div>
     <!--End Landing-->
-
+    <!--Start sec2-->
+    <div class="sec-2 pt-5">
+      <div class="container">
+        <h1 class="main-title">How does it work</h1>
+        <div class="d-flex align-items-center justify-content-between pb-5">
+          <p class=" pt-3">The full monty spiffing good time no biggie cack grub fantastic </p>
+          <a class="view text-dark" href="#!">view all features<i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="boxes">
+          <!--Box 1-->
+          <div class="box p-4">
+            <i class="fa-solid fa-bolt-lightning a"></i>
+            <h1 class="p-3 fs-3 fw-bold">Fast and intuitive</h1>
+            <p class="p-3 text-black-50 fs-6">Oxford Push bevvy give us a bell gutted meta spend a penny quanit cockup plastered </p>
+            <a class="p-3 text-black-50 fs-6" href="#!">Read more <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          <!--Box 2-->
+          <div class="box p-4">
+            <i class="fa-solid fa-house b"></i>
+            <h1 class="p-3 fs-3 fw-bold">Fast and intuitive</h1>
+            <p class="p-3 text-black-50 fs-6">Oxford Push bevvy give us a bell gutted meta spend a penny quanit cockup plastered </p>
+            <a class="p-3 text-black-50 fs-6" href="#!">Read more <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          <!--Box 3-->
+          <div class="box p-4">
+            <i class="fa-solid fa-dice-d20 c"></i>
+            <h1 class="p-3 fs-3 fw-bold">Fast and intuitive</h1>
+            <p class="p-3 text-black-50 fs-6">Oxford Push bevvy give us a bell gutted meta spend a penny quanit cockup plastered </p>
+            <a class="p-3 text-black-50 fs-6" href="#!">Read more <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          <!--Box 4-->
+          <div class="box p-4">
+            <i class="fa-solid fa-bell d"></i>
+            <h1 class="p-3 fs-3 fw-bold">Fast and intuitive</h1>
+            <p class="p-3 text-black-50 fs-6">Oxford Push bevvy give us a bell gutted meta spend a penny quanit cockup plastered </p>
+            <a class="p-3 text-black-50 fs-6" href="#!">Read more <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          <!--Box 5-->
+          <div class="box p-4">
+            <i class="fa-solid fa-gear e"></i>
+            <h1 class="p-3 fs-3 fw-bold">Fast and intuitive</h1>
+            <p class="p-3 text-black-50 fs-6">Oxford Push bevvy give us a bell gutted meta spend a penny quanit cockup plastered </p>
+            <a class="p-3 text-black-50 fs-6" href="#!">Read more <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          <!--Box 6-->
+          <div class="box p-4">
+            <i class="fa-solid fa-lock f"></i>
+            <h1 class="p-3 fs-3 fw-bold">Fast and intuitive</h1>
+            <p class="p-3 text-black-50 fs-6">Oxford Push bevvy give us a bell gutted meta spend a penny quanit cockup plastered </p>
+            <a class="p-3 text-black-50 fs-6" href="#!">Read more <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End sec2-->
 
 
 
