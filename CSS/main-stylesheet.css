@@ -74,8 +74,6 @@ a{
 .sec-2 .boxes .box h1{
   color: var(--dark-color);
 }
-
-
 .sec-2 .a{
   background-color: #2facfc;
   font-size: 18px;
@@ -133,5 +131,230 @@ a{
   padding: 10px 20px;
   border-radius: 30px;
 }
-
 /*End Sec 2*/
+/*Start Sec 3*/
+.sec-3 .container {
+  background-color: var(--section-color1);
+  margin-bottom: 50px;
+  position: relative;
+  overflow: hidden;
+}
+.sec-3 h6{
+  color: var(--red-color);
+}
+.sec-3 h1, p {
+  color: var(--dark-color);
+}
+.sec-3 svg{
+  color: white;
+  background-color:#32c36a;
+  border-radius: 50%;
+  font-size: 25px;
+}
+.sec-3 .row img{
+  position: absolute;
+  height: 145%;
+}
+/*End Sec 3*/
+
+/*Start Sec 4*/
+.sec-4{
+  background-color: var(--dark-color);
+}
+.sec-4 .title h1{
+  width: 400px;
+}
+.sec-4 .row .boxes .box{
+  border:1px solid #202234;
+  border-radius: 15px;
+}
+.sec-4 .row .boxes .box .dote-1{
+  height: 20px;
+  width: 20px;
+  background-color: #ff3e66;
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 10px #2a182d;
+}
+.sec-4 .row .boxes .box .dote-2{
+  height: 20px;
+  width: 20px;
+  background-color: #2eacfc;
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 10px #15233d;
+}.sec-4 .row .boxes .box .dote-3{
+  height: 20px;
+  width: 20px;
+  background-color: #33c956;
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 10px #15262c;
+}
+
+/*End Sec 4*/
+/*Start Sec 5*/
+.sec-5 .boxes{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap:40px;
+}
+.sec-5 .boxes .box{
+  box-shadow: 10px 10px 10px 10px #eeefef;
+  width: 70%;
+}
+.sec-5 {
+  color: var(--dark-color);
+}
+.sec-5 .text-arrow .arrow{
+  font-size: 40px;
+}
+.sec-5 .text-arrow .arrow .right ,.left{
+  border: 1px solid #e3e5e8;
+  border-radius: 50%;
+  padding: 10px;
+  color: #929295;
+}
+.sec-5 .get-started{
+  color:var(--dark-color);
+  padding: 15px 30px;
+  border: 1px solid #e3e5e8;
+  border-radius: 30px;
+}
+/*End Sec 5*/
+/*Start Sec 6*/
+.sec-6{
+  background-color: var(--section-color2);
+}
+.sec-6 h6{
+  color: var(--red-color);
+}
+.sec-6 h1  , p {
+  color: var(--dark-color);
+}
+.sec-6 .text h1{
+  width: 43%;
+  font-size: 50px;
+  font-weight: 900;
+}
+.sec-6 .text p{
+  width: 43%;
+}
+.sec-6 .container .stores .ios{
+  background-color: var(--dark-color);
+  border-radius: 20px;
+  width: fit-content;
+
+}
+.sec-6 .container .stores .ios svg{
+  color: white;
+  font-size: 60px;
+}
+.sec-6 .container .stores .android{
+  background-color:white;
+  border: 2px solid var(--dark-color);
+  border-radius: 20px;
+  width: fit-content;
+}
+.sec-6 .container .stores .android svg{
+  color: var(--dark-color);
+  font-size: 60px;
+}
+
+/*End Sec 6*/
+
+/*Start Sec 7*/
+.sec-7 .limit{
+  border: 1px solid #e7eaef;
+  width: fit-content;
+  margin: auto;
+  border-radius:50px;
+}
+.sec-7 .limit .Monthly{
+  background-color: var(--red-color);
+  border-radius: 15px;
+}
+.sec-7 .boxes{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap:40px;
+}
+.sec-7 .boxes .box-1{
+  border: 1px solid #e3e5e8;
+  border-radius: 10px;
+}
+.sec-7 .boxes .box-1 .hr{
+  border:2px solid #e1e4ea;
+  height: 2px;
+  width: 80%;
+}
+.sec-7 .boxes .box-1 h4 ,h5 {
+  color: var(--dark-color);
+}
+.sec-7 .boxes .box-1 .price{
+  font-size: 50px;
+  font-weight: 900;
+}
+.sec-7 .boxes .box-1 svg{
+  color: #5c8ff7;
+  background-color: #eef4fe;
+  border-radius: 50%;
+}
+.sec-7 .boxes .box-2 h4 ,h5 {
+  color: var(--dark-color);
+}
+.sec-7 .boxes .box-2{
+  border-style:solid ;
+  border-top-width:5px ;
+  border-bottom-width:1px ;
+  border-left-width:1px ;
+  border-right-width:1px ;
+  border-top-color: var(--red-color);
+  border-bottom-color:  #e3e5e8;
+  border-left-color:  #e3e5e8;
+  border-right-color:  #e3e5e8;
+  border-radius: 10px;
+  box-shadow: 00px 0px 10px 20px #f5f6f7;
+}
+.sec-7 .boxes .box-2 .price{
+  font-size: 50px;
+  font-weight: 900;
+}
+.sec-7 .boxes .box-2 svg{
+  color: #5c8ff7;
+  background-color: #eef4fe;
+  border-radius: 50%;
+}
+
+.sec-7 .boxes .box-2 .get-started{
+  color:white;
+  font-weight: 600;
+  padding: 15px 30px;
+  border: 1px solid #e3e5e8;
+  background-color: var(--red-color);
+  border-radius: 30px;
+}
+.sec-7 .boxes .box-1 .get-started{
+  color:var(--dark-color);
+  padding: 15px 30px;
+  border: 1px solid #e3e5e8;
+  border-radius: 30px;
+}
+
+/*End Sec 7*/
+/*Start Sec 8*/
+.sec-8 .container{
+  background-color: #0e1133;
+}
+.sec-8 .container .checked{
+  color: orange;
+}
+.sec-8 .container{
+  background-image: url(../Images/background.jpg);
+  background-repeat:no-repeat ;
+  background-size: cover;
+}
+/*End Sec 7*/ 
+
+
+
+
+
+

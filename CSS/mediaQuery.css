@@ -79,7 +79,16 @@
         position: absolute;
         left: 150px;
       }
-  }
+      /*sec-3*/
+      
+
+      .sec-3 .image img{
+        display: none;
+      }
+
+
+
+    }
 
 
 
