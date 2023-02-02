@@ -7,9 +7,10 @@
         position: relative;
         display: flex;
         justify-content:center;
+        align-items: center;
         color:var(--dark-color);
         font-family: 'Anton', sans-serif;
-        font-size: 40px;
+        font-size: 30px;
         font-weight: 900;
       }
     .nav-bar .get-started{
@@ -79,13 +80,153 @@
         position: absolute;
         left: 150px;
       }
-      /*sec-3*/
-      
+      /*Start sec-2*/
+      .sec-2 .container .text-1 { 
+        display: flex;
+        flex-direction: column;
+      }
+      .sec-2 .container .text-1 p{
+        font-size:12px;
+        text-align: center;
+      }
 
+      .sec-2 .boxes .box{
+        text-align: center;
+        padding-bottom: 20px;
+      }
+      .sec-2 .boxes .box p{
+        width: 100%;
+      }
+      /*End sec-2*/
+
+      /*Start sec-3*/
       .sec-3 .image img{
         display: none;
       }
+      .sec-3 .container .content{
+        text-align: center;
+      }
+      .sec-3 .container .content h1{
+        font-size: 20px;
+      }
+      .sec-3 .container .content h6{
+        padding-top: 25px;
+      }
+      .sec-3 .container .content p{
+        font-size: 14px;
+        padding-bottom: 12px;
+      }
+      .sec-3 .container .content .ma{
+        text-align: start;
+        padding-left: 8px;
+      }
+      .sec-3 svg{
+        font-size: 13px;
+        padding: 5px;
+      }
+      /*End sec-3*/
 
+      /*Start sec-4*/
+      .sec-4 .title h1{
+        width: 100%;
+        font-size: 21px;
+      }
+      .sec-4 .title p{
+        font-size: 12px;
+      }
+      .sec-4 .row .boxes .box .dote-1{
+        height: 15px;
+        width: 20px;
+        box-shadow: 0px 0px 0px 5px #2a182d;
+      }
+      .sec-4 .row .boxes .box .dote-2{
+        height: 15px;
+        width: 20px;
+        box-shadow: 0px 0px 0px 5px #15233d;
+      }
+      .sec-4 .row .boxes .box .dote-3{
+        height: 15px;
+        width: 20px;
+        box-shadow: 0px 0px 0px 5px #15262c;
+      }
+      .sec-4 .row .boxes .box h2{
+        font-size: 18px;
+      }
+      .sec-4 .row .boxes .box p{
+        font-size: 12px;
+        margin-bottom: 0px;
+      }
+      /*End sec-4*/
+
+      /*Start sec-5*/
+      .sec-5 .container{
+        text-align: center;
+      }
+      /*End sec-4*/
+
+
+      
+      /*Start sec-6*/
+      .sec-6 .text h1{
+        width: 100%;
+        font-size: 30px;
+        font-weight: 900;
+      }
+      .sec-6 .text p{
+        width: 100%;
+      }
+      .sec-6 .container .stores .ios{
+        padding: 10px;
+      }
+      .sec-6 .container .stores .android{
+        padding: 10px;
+      }
+      .sec-6 .container .stores .ios svg{
+        color: white;
+        font-size: 25px;
+        padding-right: 5px;
+      }
+      .sec-6 .container .stores .android svg{
+        color: var(--dark-color);
+        font-size: 25px;
+        padding-right:5px;
+      }
+      .sec-6 .container .stores .ios h1{
+        font-size: 20px;
+        font-weight: 100;
+        margin-bottom: 0px;
+      }
+      .sec-6 .container .stores .android h1{
+        font-size: 20px;
+        font-weight: 100;
+        margin-bottom: 0px;
+      }
+      .sec-6 .container .stores .ios h4{
+        font-size: 15px;
+        padding-top: 5px;
+      }
+      .sec-6 .container .stores .android h4{
+        padding-top:5px ;
+        font-size: 15px; 
+      }
+      
+      
+      /*End sec-6*/
+      /*Start sec-10 footer*/
+      .footer .row{
+        text-align: center;
+      }
+      .footer .social-media{
+        padding-bottom: 20px;
+      }
+      .footer .container .row .Git-In-Touch ul li{
+        align-items: center;
+        justify-content: center;
+      }
+      .footer .stores{
+      }
+
+      /*End sec-10 footer*/
 
 
     }
@@ -105,6 +246,7 @@
         font-size: 40px;
         font-weight: 900;
         
+
 
       }
     .nav-bar .get-started{

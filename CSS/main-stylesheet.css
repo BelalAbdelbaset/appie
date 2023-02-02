@@ -13,7 +13,6 @@
 }
 html{
   scroll-behavior: smooth;
-  height: 10000px;
 }
 body{
   font-family: "cairo" , sans-serif;
@@ -150,6 +149,7 @@ a{
   background-color:#32c36a;
   border-radius: 50%;
   font-size: 25px;
+  padding: 5px;
 }
 .sec-3 .row img{
   position: absolute;
@@ -233,6 +233,7 @@ a{
   width: 43%;
   font-size: 50px;
   font-weight: 900;
+  
 }
 .sec-6 .text p{
   width: 43%;
@@ -242,6 +243,12 @@ a{
   border-radius: 20px;
   width: fit-content;
 
+}
+.sec-6 .container .stores .ios h4{
+  line-height: 0.5px;
+}
+.sec-6 .container .stores .android h4{
+  line-height: 0.5px;
 }
 .sec-6 .container .stores .ios svg{
   color: white;
@@ -311,7 +318,18 @@ a{
   border-left-color:  #e3e5e8;
   border-right-color:  #e3e5e8;
   border-radius: 10px;
-  box-shadow: 00px 0px 10px 20px #f5f6f7;
+  box-shadow: 0px 0px 10px 20px #f5f6f7;
+  position: relative;
+  overflow: hidden  ;
+}
+.sec-7 .most-pop{
+  background-color: var(--blue-color);
+  position: absolute;
+  right: -17px;  
+  top: 20px;
+  padding: 10px 30px;
+  border-radius: 20px;
+
 }
 .sec-7 .boxes .box-2 .price{
   font-size: 50px;
@@ -351,10 +369,61 @@ a{
   background-repeat:no-repeat ;
   background-size: cover;
 }
-/*End Sec 7*/ 
+.sec-8 .text-arrow .arrow{
+  font-size: 40px;
+}
+.sec-8 .arrow .right ,.left{
+  border: 1px solid #e3e5e8;
+  border-radius: 50%;
+  padding: 10px;
+  color: #929295;
+}
+/*End Sec 8*/ 
+/*End Sec 9*/ 
+.sec-9 .sponsors img{
+  padding: 50px;
+  margin: 20px;
+  box-shadow: rgb(188 188 189) 0px 30px 50px 0px;
+  border-radius: 15px;
+}
+/*End Sec 9*/ 
 
 
+/*Start Sec 10 footer*/ 
+.footer{
+  background-color: var(--section-color2);
+}
+.footer .container a{
+  color: var(--dark-color);
+}
+ .container .social-media svg{
+  padding: 10px;
+  color: var(--dark-color);
+  background-color: white;
+  border-radius: 5px;
+}
+.footer .Git-In-Touch svg{
+  color:var(--blue-color);
+}
+.footer .container .stores .ios{
+  background-color:white;
+  border-radius: 15px;
+  color: var(--dark-color);
+}
+.footer .container .stores .ios svg{
+  color: var(--dark-color);
+  font-size: 30px;
+}
+.footer .container .stores .android{
+  border: 2px solid var(--dark-color);
+  border-radius: 15px;
+}
+.footer .container .stores .android svg{
+  color: var(--dark-color);
+  font-size: 30px;
+}
 
+/*End Sec 10 footer*/ 
 
 
 
