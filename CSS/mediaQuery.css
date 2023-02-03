@@ -163,8 +163,24 @@
         text-align: center;
       }
       /*End sec-4*/
+      /*Start sec-5*/
+      .sec-5 .boxes{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .sec-5 .container .image-2{
+        display: none;
+      }
+      .sec-5 .container .text-arrow .arrow{
+        display: none;
+      }
+      .sec-5 .container .text-arrow .text{
+        text-align: center;
+      }
 
-
+      /*End sec-5*/
       
       /*Start sec-6*/
       .sec-6 .text h1{
@@ -212,6 +228,26 @@
       
       
       /*End sec-6*/
+      /*End sec-8*/
+      .sec-8 .container .row .arrow {
+        display: none;
+      }
+      /*End sec-8*/
+      /*Start sec-9*/
+      .sec-9 .section-header h1{
+        width: 100%;
+      }
+      .sec-9 .section-header p{
+        text-align: center;
+      }
+      .sec-9 .sponsors img{
+        padding: 28px;
+        margin: 7px;
+        box-shadow: rgb(188 188 189) 0px 20px 40px 0px;
+        border-radius: 15px;
+      }
+      /*End sec-9*/
+
       /*Start sec-10 footer*/
       .footer .row{
         text-align: center;
@@ -222,12 +258,32 @@
       .footer .container .row .Git-In-Touch ul li{
         align-items: center;
         justify-content: center;
+        text-align: center;
       }
-      .footer .stores{
+      .footer .container .stores .ios svg{
+        font-size: 18px;
       }
-
+      .footer .container .stores .android svg{
+        font-size: 18px;
+      }
+      .footer .stores .ios h4{
+        font-size: 14px;
+        padding: 2px;
+      }
+      .footer .stores .android h4{
+        font-size: 13px;
+        padding: 2px;
+      }
+      .footer .container .stores .ios{
+        border-radius: 5px;
+      }
+      .footer .container .stores .android{
+        border-radius: 5px;
+      }
       /*End sec-10 footer*/
-
+      .footer .container .copyright{
+        text-align: center;
+      }
 
     }
 

@@ -386,6 +386,9 @@ a{
   box-shadow: rgb(188 188 189) 0px 30px 50px 0px;
   border-radius: 15px;
 }
+.sec-9 .section-header h1{
+  width: 45%;
+}
 /*End Sec 9*/ 
 
 
